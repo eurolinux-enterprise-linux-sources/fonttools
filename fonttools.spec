@@ -1,6 +1,6 @@
 Name:           fonttools
 Version:        2.4
-Release:        1%{?dist}
+Release:        3%{?dist}
 Summary:        A tool to convert True/OpenType fonts to XML and back
 
 Group:          Development/Tools
@@ -55,6 +55,12 @@ chmod 0755 $RPM_BUILD_ROOT%{python_sitearch}/FontTools/fontTools/misc/eexecOp.so
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.4-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.4-2
+- Mass rebuild 2013-12-27
+
 * Mon Jun 24 2013 Parag <pnemade AT redhat DOT com> - 2.4-1
 - New upstream release 2.4
 
